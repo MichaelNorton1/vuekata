@@ -9,7 +9,7 @@ const data = ref(null)
 
 
 const fetchData = async () => {
-  return await fetch("src/assets/data.json").then((res) => res.json()).then((json) => data.value = structuredClone(json)).catch((err) => console.log(err))
+  return await fetch("./src/assets/data.json").then((res) => res.json()).then((json) => data.value = structuredClone(json)).catch((err) => console.log(err))
 }
 
 onMounted(() => {

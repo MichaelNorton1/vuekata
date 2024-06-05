@@ -29,10 +29,11 @@ const props = defineProps(["cards"])
 
   @media screen  and (max-width: 800px) {
   flex-wrap: wrap;
+    justify-content: center;
 
   }
   .cardContent {
-    width: 415px;
+    max-width: 415px;
     display: flex;
     padding: 32px 0px;
     flex-direction: column;
@@ -44,6 +45,7 @@ const props = defineProps(["cards"])
     @media screen  and (max-width: 800px) {
 
       flex: auto;
+      justify-content: center;
 
     }
   }

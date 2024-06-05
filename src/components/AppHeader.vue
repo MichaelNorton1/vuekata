@@ -135,13 +135,20 @@ const start = computed(() => {
   align-items: center;
   margin-bottom: 100px;
 
+  @media screen  and (max-width: 1230px) {
+
+justify-content: center;
+
+  }
+
   .left {
     position: relative;
-    padding: 50px;
+    padding: 0px;
 
   }
 
   .right {
+    max-width:582px;
     display: flex;
     flex: 1 0 50%;
     flex-wrap: nowrap;
@@ -176,8 +183,7 @@ const start = computed(() => {
 
   button {
     &.access {
-      position: absolute;
-      top: 52%;
+
       @media screen  and (max-width: 1200px) {
         position: relative;
         align-self: center;
@@ -259,7 +265,7 @@ const start = computed(() => {
     width: 75% !important;
   }
   .paraTextcontainer{
-    width: 640px !important;
+    max-width: 582px !important;
     text-align: left !important;
     p{text-align: left !important;}
   }

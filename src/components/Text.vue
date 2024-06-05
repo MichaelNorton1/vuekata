@@ -87,7 +87,7 @@ h3 {
     width: 27.968px;
     height: 19.2px;
     position: relative;
-    content: url("./src/assets/images/quote_2.svg");
+    content: url("../../src/assets/images/quote_2.svg");
     bottom: 40px;
     right: 12px;
   }
@@ -96,7 +96,7 @@ h3 {
     width: 27.968px;
     height: 19.2px;
     position: relative;
-    content: url("./src/assets/images/quote_1.svg");
+    content: url("../../src/assets/images/quote_1.svg");
      top: 40px;
     left: 12px;
   }
