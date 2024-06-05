@@ -1,0 +1,88 @@
+{
+  "content": {
+    "header": [
+      {
+        "type": "image",
+        "src": "logo_icc.svg",
+        "image": "logo"
+      },
+      {
+        "type": "image",
+        "src": "case_bg.gif",
+        "image": "gif"
+      },
+      {
+        "type": "image",
+        "src": "logo_jm.svg",
+        "image": "smLogo"
+      },
+      {
+        "type": "boldText",
+        "text": "A Unique Partnership for the Publication of ICC Arbitration Awards"
+      },
+      {
+        "type": "paraText",
+        "text": "ICC & Jus Mundi have joined forces to make them freely available to the global legal community on Jus Mundi to improve access to justice and to enhance the global rule-based order."
+      }
+    ],
+    "body": [
+      {
+        "type": "quoteText",
+        "text": "Publicising  and  disseminating  information  about  arbitration  has  been  one  of  ICC’s commitments  since  its  creation  and  an  instrumental  factor  in  facilitating  the  development  of trade worldwide."
+      },
+      {
+        "type": "paraText",
+        "text": "Note to the Parties and the Arbitral Tribunals\u2028on the Conduct of Arbitration under the ICC Rules of Arbitration"
+      },
+      {
+        "type": "link",
+        "text": "read the whole document"
+      },
+      {
+        "type": "boldText",
+        "text": "Why this partnership?"
+      },
+      {
+        "type": "paraText",
+        "text": "Throughout its 100-year history, ICC has brought global business together to support an international rules-based order, including the promotion of global trade and commerce through the work of the ICC International Court of Arbitration."
+      },
+      {
+        "type": "paraText",
+        "text": "ICC has partnered with Jus Mundi to provide full public access to all publishable ICC International Court of Arbitration awards and related documents made as of 1 January 2019"
+      },
+      {
+        "type": "cardBlock",
+        "content": [
+          {
+            "img": {
+              "type": "image",
+              "src": "morecontent_icon.svg",
+              "image": "card"
+            },
+            "cardBold": "More key arbitration content",
+            "cardText": "This unique partnership means you will have access to more key arbitration content to level up your arbitration research. "
+          },
+          {
+            "img": {
+              "type": "image",
+              "src": "transparency_icon.svg",
+              "image": "card"
+            },
+            "cardBold": "More transparency",
+            "cardText": "You will appreciate the increase in transparency in arbitration!"
+          },
+          { "img": {
+            "type": "image",
+            "src": "efficency_icon.svg",
+            "image": "card"
+          },
+
+            "cardBold": "More efficiency",
+            "cardText": "Jus Mundi’s AI-powered technology efficiently delivers thorough legal research and due diligence with full confidence."
+          }
+        ]
+      }
+    ],
+    "footer": {}
+  }
+}

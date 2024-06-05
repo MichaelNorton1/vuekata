@@ -1,0 +1,83 @@
+@import './base.css';
+
+/*specific card content*/
+
+a {
+    color:  #2C2B2E;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.green {
+    background: #6AD300;
+    display: inline-block;
+
+    &.horizontal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 24px;
+        height: 2px;
+        flex-shrink: 0;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+}
+
+
+@media (max-width: 1151px) {
+
+    body {
+
+        #text {
+            width: 100% !important;
+        }
+        .left {
+            display: none
+        }
+
+        .right {
+            display: flex;
+
+            #text {
+                width: 100%;
+            }
+
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+        }
+
+    }
+
+
+}
+
+#paraText1{
+    width: 470px;
+    text-align: center;
+    div{
+        p{font-size: 16px !important;}
+    }
+}
+#quoteText0{
+    width:640px
+}
+
+#paraText4,#paraText5{
+    text-align: center;
+}
+
+
+
+
