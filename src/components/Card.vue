@@ -24,12 +24,14 @@ const props = defineProps(["cards"])
 
 <style scoped>
 .cardContainer {
-  width: 100%;
+
   display: flex;
 
   @media screen  and (max-width: 800px) {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
   }
   .cardContent {

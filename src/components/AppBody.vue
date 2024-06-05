@@ -50,6 +50,38 @@ const bodyData = defineProps(["data"])
   justify-content: center;
   align-items: center;
 
+
+
+  #paraText1{
+    width: 470px;
+    text-align: center;
+    div{
+      p{font-size: 16px !important;}
+    }
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+  }
+  #quoteText0{
+    width:640px
+  }
+
+  #paraText4,#paraText5{
+    max-width: 862px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+
+
+
 }
 
 </style>

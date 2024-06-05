@@ -39,7 +39,7 @@ const startInnerTransition = () => {
 
 <style scoped>
 
-/*  ICC logo */
+/*  ICC logo container */
 
 .container-enter-active,
 .container-leave-active {
@@ -56,8 +56,7 @@ const startInnerTransition = () => {
   }
 }
 
-
-
+/*  ICC logo Image */
 .img-enter-active,
 .img-leave-active {
 
@@ -69,7 +68,7 @@ const startInnerTransition = () => {
   opacity: 0;
 }
 
-
+/*  JusMundi logo  */
 .slide-fade-enter-active {
   left: 0;
   transition: all 0.5s ease-in;
@@ -85,6 +84,9 @@ const startInnerTransition = () => {
   opacity: 0;
 
 }
+
+/*******/
+
 
 #gif {
   width: 478.981px;

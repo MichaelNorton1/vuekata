@@ -1,6 +1,6 @@
 @import './base.css';
 
-/*specific card content*/
+
 
 a {
     color:  #2C2B2E;
@@ -37,7 +37,7 @@ a {
 
     body {
 
-        #text {
+        #textparaText,.text:not(#paraText1) {
             width: 100% !important;
         }
         .left {
@@ -58,25 +58,21 @@ a {
             align-items: center;
         }
 
+        #boldText3{
+            text-align: center;
+
+        }
+
     }
 
 
 }
 
-#paraText1{
-    width: 470px;
-    text-align: center;
-    div{
-        p{font-size: 16px !important;}
-    }
-}
-#quoteText0{
-    width:640px
-}
 
-#paraText4,#paraText5{
-    text-align: center;
-}
+
+
+
+
 
 
 

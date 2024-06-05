@@ -16,7 +16,7 @@ const isCard=computed(() => {
 
 <template>
 
-  <div :id="isCard" :class="(props.content.type || props.cardType) +'container'">
+  <div :id="isCard + (props.content.type || props.cardType)" :class="(props.content.type || props.cardType) +'container'">
     <h3 v-if="props.content.type==='boldText'">{{ props.content.text }}</h3>
     <p v-else-if="props.content.type==='paraText' ">{{ props.content.text }}</p>
     <p :class="props.content.type" v-else-if="props.content.type==='quoteText'">{{ props.content.text }}</p>
@@ -32,10 +32,7 @@ const isCard=computed(() => {
 
 <style scoped>
 #text {
-  width: 862px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 .cardPara{
 
@@ -83,13 +80,25 @@ h3 {
 
 .quoteTextcontainer {
 
+  @media  (max-width: 500px) {
+    &:before,&:after{
+
+      content:none!important;
+
+
+
+    }
+  }
+
   &:before {
     width: 27.968px;
     height: 19.2px;
     position: relative;
     content: url("../../src/assets/images/quote_2.svg");
-    bottom: 40px;
-    right: 12px;
+    top: 10%;
+    right: 1%;
+
+
   }
 
   &:after {
@@ -97,12 +106,15 @@ h3 {
     height: 19.2px;
     position: relative;
     content: url("../../src/assets/images/quote_1.svg");
-     top: 40px;
-    left: 12px;
+    top: 65%;
+    left: 1%;
+
   }
 
+
+
   display: flex;
-  width: 640px;
+  max-width: 640px;
   align-items: flex-start;
   gap: 10px;
 }

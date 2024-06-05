@@ -73,24 +73,23 @@ const start = computed(() => {
   margin-bottom: 75px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #F5F5F5 69.79%);
   justify-content: space-between;
-}
 
+  .vertical {
+    width: 24px;
+    height: 2px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    margin-left: 1%;
 
-.vertical {
-  width: 24px;
-  height: 2px;
-  transform: rotate(90deg);
-  flex-shrink: 0;
-  margin-left: 1%;
+  }
 
-}
-
-.slant {
-  width: 38.869px;
-  height: 2px;
-  transform: rotate(-135deg);
-  flex-shrink: 0;
-  margin-right: 1%
+  .slant {
+    width: 38.869px;
+    height: 2px;
+    transform: rotate(-135deg);
+    flex-shrink: 0;
+    margin-right: 1%
+  }
 }
 
 
@@ -137,18 +136,19 @@ const start = computed(() => {
 
   @media screen  and (max-width: 1230px) {
 
-justify-content: center;
+    justify-content: center;
 
   }
 
   .left {
     position: relative;
-    padding: 0px;
+
 
   }
 
   .right {
-    max-width:582px;
+    margin-right: 1%;
+    max-width: 582px;
     display: flex;
     flex: 1 0 50%;
     flex-wrap: nowrap;
@@ -182,6 +182,7 @@ justify-content: center;
   }
 
   button {
+    cursor: pointer;
     &.access {
 
       @media screen  and (max-width: 1200px) {
@@ -261,13 +262,18 @@ justify-content: center;
 
     box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.10);
   }
-  .boldTextcontainer{
-    width: 75% !important;
+
+  .boldTextcontainer {
+    width: 80%
   }
-  .paraTextcontainer{
-    max-width: 582px !important;
-    text-align: left !important;
-    p{text-align: left !important;}
+
+  .paraTextcontainer {
+    max-width: 582px ;
+    text-align: left ;
+
+    p {
+      text-align: left ;
+    }
   }
 }
 
